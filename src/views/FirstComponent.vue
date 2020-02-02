@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1> essai componants </h1>
-        <h2> Titre 2 </h2>
+        <h1> Essai route </h1>
+        <h2>  2 </h2>
     </div>
 </template>
 

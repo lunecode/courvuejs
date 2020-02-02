@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <FirstComponent/>
+    <Second/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -12,10 +13,13 @@
 
 <script>
 import FirstComponent from './components/FirstComponent'
+import Second from './components/Second'
+
 export default {
   name: 'App',
   components: {
-   FirstComponent
+   FirstComponent,
+   Second
   }
 }
 </script>
