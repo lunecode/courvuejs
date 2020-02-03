@@ -1,25 +1,52 @@
 <template>
   <div id="app">
-    <FirstComponent/>
+    <!-- <FirstComponent/>
     <Second/>
+    <Third/>
+    <Fourth/>
+    <Firth/> -->
+    <Navbar/>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-      <router-link to="/test">Test</router-link>
+      <router-link to="/test">Test</router-link> -->
     </div>
     <router-view/>
   </div>
 </template>
 
 <script>
-import FirstComponent from './components/FirstComponent'
-import Second from './components/Second'
+
+import Navbar from './components/Navbar'
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+// app.js
+import Vue from 'vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+
+
+
+// import FirstComponent from './components/FirstComponent'
+// import Second from './components/Second'
+// import Third from './components/Third'
+// import Fourth from './components/Fourth'
+// import Firth from './components/Firth'
 
 export default {
   name: 'App',
   components: {
-   FirstComponent,
-   Second
+    // FirstComponent,
+    // Second,
+    // Third,
+    // Fourth,
+    // Firth,
+    Navbar
   }
 }
 </script>

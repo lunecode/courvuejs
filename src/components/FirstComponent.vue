@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="nu">
         <h1> essai componants </h1>
         <h2> Titre 2 </h2>
     </div>
@@ -12,5 +12,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.nu {
+    border:  2px black solid;
+}
+</style>
 

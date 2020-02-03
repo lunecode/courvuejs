@@ -1,6 +1,6 @@
 <template>
 
-    <div0 class="parentPrincipal">
+    <div0 class="parentPrincipal ni">
         <div1>
             <span> || Hello, {{ message }} | {{ compteur}} | {{ pourcentage }} || </span>
         </div1>
@@ -55,6 +55,15 @@ export default {
 </script>
 
 <style>
+
+.ni {
+    border:  2px green solid;
+    padding: 3rem;
+}
+
+img {
+    width: 5rem;
+}
 
 </style>
 
